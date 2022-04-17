@@ -1,0 +1,24 @@
+{
+  "name": "email-expense-extractor-service",
+  "version": "1.0.0-alpha.1",
+  "description": "Service that receives emails and extracts expenses so that they are easier to track",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@types/imapflow": "^1.0.9",
+    "jest": "^27.5.1",
+    "prettier": "^2.6.2",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.3"
+  },
+  "dependencies": {
+    "@vlasky/quoted-printable": "^3.2.1",
+    "dotenv": "^16.0.0",
+    "imapflow": "^1.0.90",
+    "quoted-printable": "^1.0.1"
+  }
+}
